@@ -38,13 +38,7 @@ $name = $from_id = $message->from->first_name;
 $from_id = $message->from->id;
 $text = $message->text;
 //===============BENCHAM=============//
-if($text == "/about") 
 
-            bot('sendmessage', [
-                'chat_id' =>$chat_id,
-                'text' =>"$START_MESSAGE",
- 'parse_mode'=>'HTML',
-]);
 
 	
 if($text == "/start") 
@@ -73,7 +67,13 @@ Made with ❤ by @MyTestBotZ</b>",
    'parse_mode'=>"HTML",
 ]);
    
-}else {
+}elseif($text == "/about") 
+
+            bot('sendmessage', [
+                'chat_id' =>$chat_id,
+                'text' =>"$START_MESSAGE",
+ 'parse_mode'=>'HTML',
+]);else {
 bot('sendmessage', [
                 'chat_id' =>$chat_id,
                 'text' =>"<b>PLEASE GIVE ME A VALID URL</b>",
