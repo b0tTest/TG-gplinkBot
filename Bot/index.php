@@ -71,7 +71,7 @@ Made with ❤ by @MyTestBotZ</b>",
 
             bot('sendmessage', [
                 'chat_id' =>$chat_id,
-                'text' =>"$START_MESSAGE",
+                'text' =>"$ABOUT_MESSAGE",
  'parse_mode'=>'HTML',
 ]);else {
 bot('sendmessage', [
