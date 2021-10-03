@@ -11,9 +11,9 @@ $GP_API_KEY = $_ENV['GP_API_KEY'];
 //=========OTHERS=======//
 $START_MESSAGE = $_ENV["START_MESSAGE"] =<<<EOM
 
-<b>I'm a GPLINK Shortner Bot
+<b>I'm a PDiskShortner Bot
 
-Just Send Me A Long Url. I Will Give You It's Short Url using GPLink.
+Just Send Me A Long Url. I Will Give You It's Short Url.
 
 Made with ♥️ by @MyTestBotZ</b>
 EOM;
@@ -23,7 +23,7 @@ $ABOUT_MESSAGE = $_ENV["ABOUT_MESSAGE"] =<<<EOM
 
 <b>ABOUT MEH 
   
-➠ Name : GPLink Shortner
+➠ Name : PDisk Shortner
 ➠ Creator : @OO7ROBot
 ➠ Channel : @MyTestBotZ
 ➠ BotList : @MyBotzList
