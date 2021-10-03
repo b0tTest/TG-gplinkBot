@@ -55,11 +55,12 @@ bot('sendmessage', [
                 'chat_id' =>$chat_id,
                 'text'=>"<b>Thank you for using me☺
 
-YOUR SHORTEN URL: </b> <code>$short</code>
+🔗 YOUR SHORTEN URL: </b> <code>$short</code>
 
-<b>LONG URL:</b> <code>$text</code>
+<b>✅ Original URL:</b> <code>$text</code>
 
-<b>Shorten by $BOT_USERNAME</b>",
+<b>Shorten by $BOT_USERNAME
+Made with ❤ by @MyTestBotZ</b>",
    'parse_mode'=>"HTML",
 ]);
    
