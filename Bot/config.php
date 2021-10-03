@@ -18,3 +18,15 @@ Just Send Me A Long Url. I Will Give You It's Short Url using GPLink.
 Made with ♥️ by @MyTestBotZ</b>
 EOM;
 ?>
+
+
+$ABOUT_MESSAGE = $_ENV["ABOUT_MESSAGE"] =<<<EOM
+
+<b>➠ Name : GPLink Shortner
+➠ Channel : @MyTestBotZ
+➠ BotList : @MyBotzList
+➠ Language : PHP
+➠ Server : Heroku
+</b>
+EOM;
+?>
