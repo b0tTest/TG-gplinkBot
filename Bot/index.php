@@ -62,7 +62,9 @@ bot('sendmessage', [
 
 <b>✅ Original URL:</b> <code>$text</code>
 
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 <b>Shorten by $BOT_USERNAME
+
 Made with ❤ by @MyTestBotZ</b>",
    'parse_mode'=>"HTML",
 ]);
