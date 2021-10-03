@@ -50,7 +50,7 @@ if($text == "/start")
 ]);
 if($text !== '/start'){
 
-$get = json_decode(file_get_contents("https://gplinks.in/api?api=$GP_API_KEY&url=$text"),true);
+$get = json_decode(file_get_contents("https://pdiskshortner.net/api?api=$GP_API_KEY&url=$text"),true);
 $short = $get['shortenedUrl'];
 
 if($get['shortenedUrl']){
