@@ -17,7 +17,6 @@ Just Send Me A Long Url. I Will Give You It's Short Url using GPLink.
 
 Made with ♥️ by @MyTestBotZ</b>
 EOM;
-?>
 
 
 $ABOUT_MESSAGE = $_ENV["ABOUT_MESSAGE"] =<<<EOM
