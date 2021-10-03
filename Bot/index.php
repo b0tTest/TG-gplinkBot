@@ -42,7 +42,7 @@ if($text == "/about")
 
             bot('sendmessage', [
                 'chat_id' =>$chat_id,
-                'text' =>"$ABOUT_MESSAGE",
+                'text' =>"$START_MESSAGE",
  'parse_mode'=>'HTML',
 ]);
 
