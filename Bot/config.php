@@ -15,6 +15,6 @@ $START_MESSAGE = $_ENV["START_MESSAGE"] =<<<EOM
 
 Just Send Me A Long Url. I Will Give You It's Short Url using GPLink.
 
-Made with ♥️ by  <a href="https://telegram.me/MyTestBotZ">@MyTestBotZ</a></b>
+Made with ♥️ by @MyTestBotZ</b>
 EOM;
 ?>
