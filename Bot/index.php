@@ -47,7 +47,7 @@ if($text == "/about")
 ]);
 
 	
-else($text == "/start") 
+if($text == "/start") 
 
             bot('sendmessage', [
                 'chat_id' =>$chat_id,
