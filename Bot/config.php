@@ -21,7 +21,10 @@ EOM;
 
 $ABOUT_MESSAGE = $_ENV["ABOUT_MESSAGE"] =<<<EOM
 
-<b>➠ Name : GPLink Shortner
+<b>ABOUT MEH 
+  
+➠ Name : GPLink Shortner
+➠ Creator : @OO7ROBot
 ➠ Channel : @MyTestBotZ
 ➠ BotList : @MyBotzList
 ➠ Language : PHP
