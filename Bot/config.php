@@ -13,8 +13,8 @@ $START_MESSAGE = $_ENV["START_MESSAGE"] =<<<EOM
 
 <b>I'm a GPLINK Shortner Bot
 
-Just Send Me A Long Url. I Will Give You It's Short Url.
+Just Send Me A Long Url. I Will Give You It's Short Url using GPLink.
 
-YOU CAN ALSO MAKE A BOT LIKE THIS FROM <a href="https://github.com/Benchamxd/GplinksBot/">HERE</a></b>
+Made with ♥️ by  <a href="https://telegram.me/MyTestBotZ">@MyTestBotZ</a></b>
 EOM;
 ?>
