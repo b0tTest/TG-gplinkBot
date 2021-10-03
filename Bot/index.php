@@ -38,6 +38,13 @@ $name = $from_id = $message->from->first_name;
 $from_id = $message->from->id;
 $text = $message->text;
 //===============BENCHAM=============//
+if($text == "/about") 
+
+            bot('sendmessage', [
+                'chat_id' =>$chat_id,
+                'text' =>"$ABOUT_MESSAGE",
+ 'parse_mode'=>'HTML',
+]);
 if($text == "/start") 
 
             bot('sendmessage', [
